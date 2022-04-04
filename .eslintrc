@@ -1,19 +1,24 @@
 {
-  "parser": "babel-eslint",
-  "extends": ["airbnb", "prettier", "prettier/react"],
-  "plugins": ["prettier", "react", "jsx-a11y"],
+  "parser": "@babel/eslint-parser",
+  "extends": ["airbnb/base"],
+  "plugins": ["react", "react-hooks", "jsx-a11y"],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "env": {
-    "jest": true,
     "browser": true,
-    "node": true,
-    "es6": true
+    "es2021": true
   },
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2021,
     "sourceType": "module",
     "ecmaFeatures": {
-      "jsx": true
-    }
+      "jsx": true,
+      "modules": true
+    },
+    "requireConfigFile": false
   },
   "rules": {
     "arrow-body-style": [2, "as-needed"],
@@ -69,6 +74,7 @@
     "react/self-closing-comp": 0,
     "react/sort-comp": 0,
     "require-yield": 0,
-    "eol-last": 1
+    "eol-last": 1,
+    "semi": ["error", "never"]
   }
 }

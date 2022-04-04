@@ -1,6 +1,6 @@
 {
   "name": "next-js-eslint",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Next.js ESLINT boilerplate",
   "main": "index.js",
   "scripts": {
@@ -21,24 +21,24 @@
   },
   "homepage": "https://github.com/lauriskuznecovs/next-js-eslint#readme",
   "dependencies": {
-    "next": "^9.4.4",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
+    "next": "^12.1.4",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.5.0",
-    "eslint-config-airbnb": "^18.2.0",
-    "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-config-prettier": "^6.11.0",
-    "eslint-import-resolver-webpack": "^0.12.2",
-    "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-jsx-a11y": "^6.3.1",
-    "eslint-plugin-prettier": "^3.1.4",
-    "eslint-plugin-react": "^7.20.3",
-    "eslint-plugin-react-hooks": "^4.0.8"
+    "@babel/core": "^7.17.8",
+    "@babel/eslint-parser": "^7.17.0",
+    "@babel/preset-react": "^7.16.7",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-import-resolver-webpack": "^0.13.2",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0"
   },
   "standard": {
-    "parser": "babel-eslint"
+    "parser": "@babel/eslint-parser"
   }
 }
