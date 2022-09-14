@@ -22,8 +22,8 @@
   "homepage": "https://github.com/lauriskuznecovs/next-js-eslint#readme",
   "dependencies": {
     "next": "^12.1.4",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@babel/core": "^7.17.8",
